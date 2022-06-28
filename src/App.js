@@ -3,9 +3,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       Hello
-      </header>
+      <div className="container">
+        <header className="App-header">Dictionary</header>
+        <footer className="text-center">Coded by Caroline Månsson</footer>
+      </div>
     </div>
   );
 }
