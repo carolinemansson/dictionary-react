@@ -2,7 +2,7 @@ import './App.css';
 import Dictionary from "./Dictionary";
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -10,10 +10,10 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Caroline Månsson</footer>
+        <footer className="App-footer"><small>Coded by Caroline Månsson</small></footer>
       </div>
     </div>
   );
 }
 
-export default App;
+
