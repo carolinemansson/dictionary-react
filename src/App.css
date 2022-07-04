@@ -1,3 +1,11 @@
+body {
+  background: lavender;
+}
+
+a {
+  color: rgb(109, 109, 206);
+}
+
 .App-header {
   margin: 30px 0;
 }
