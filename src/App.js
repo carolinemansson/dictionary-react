@@ -12,7 +12,7 @@ export default function App() {
           <Dictionary defaultKeyword="dinosaur" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Caroline Månsson</small>
+        This project was coded by Caroline Månsson and is <a href="https://github.com/carolinemansson/dictionary-react">open-sourced on GitHub</a>
         </footer>
       </div>
     </div>
