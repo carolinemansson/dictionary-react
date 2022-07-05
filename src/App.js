@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <span className="dino">DINO</span> Dictionary 🦖
+          <span className="dino">DINO</span> Dictionary
         </header>
         <main>
           <Dictionary defaultKeyword="dinosaur" />

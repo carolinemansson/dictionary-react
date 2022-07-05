@@ -4,6 +4,7 @@ margin: 20px 0;
 
 .Phonetic a {
     border: 1px solid #ddd;
+    background: #fff;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
