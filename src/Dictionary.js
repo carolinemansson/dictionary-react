@@ -45,8 +45,8 @@ function load() {
 if (loaded) {
 return (
   <div className="Dictionary">
-    <section>
-      <h1>What word do you want to look up? 🦖</h1>
+    <section className="first">
+      <h1>What word do you want to look up?</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="search"
@@ -54,7 +54,7 @@ return (
           defaultValue={props.defaultKeyword}
         />
       </form>
-      <div className="hint">suggested words: sunset, wine, yoga, plant...</div>
+      <div className="hint">suggested words: sunset, music, yoga, food...</div>
     </section>
     <Results results={results} />
     <Photos photos={photos} />

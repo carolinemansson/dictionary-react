@@ -3,3 +3,13 @@
     font-weight: bold;
     line-height: 1.5;
 }
+
+.Results .second {
+    background-image: url("./rawr.png");
+    background-size:20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+
+}
+
